@@ -13,7 +13,9 @@ import com.inexture.kotlinex.RetroFitApi.Post
 import com.inexture.kotlinex.RetroFitApi.UserResp
 import com.inexture.kotlinex.databinding.ActivityMainBinding
 import com.inexture.kotlinex.model.ConsResp
+import com.livinglifetechway.k4kotlin.hide
 import com.livinglifetechway.k4kotlin.setBindingView
+import com.livinglifetechway.k4kotlin.show
 import com.livinglifetechway.k4kotlin_retrofit.*
 import kotlinx.coroutines.experimental.*
 import kotlinx.coroutines.experimental.android.UI
@@ -40,8 +42,14 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
         mBinding.rvTest.layoutManager = LinearLayoutManager(this)
 
 
-        val userData = getData()
-        println(userData.toString())
+//        mBinding.ivAdd.setOnClickListener {
+//            mBinding.progressBar.show()
+//            async {
+//                val userData = getData()
+//                println(userData.toString())
+//                mBinding.tvNoDataFound.text = "vidhi"
+//            }
+//        }
         //val postInfo = getData()
         // println(postInfo)
 
@@ -143,25 +151,19 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //        }
 
 //        join ex
-//        mBinding.ivAdd.setOnClickListener {
-//            println("before" + Thread.currentThread().id)
-//
-//            runBlocking {
-//                println("in async" + Thread.currentThread().id)
-//
-//                val job = launch {
-//                    // launch new coroutine and keep a reference to its Job
-//                    delay(1000L)
-//                    println("World!" + Thread.currentThread().id)
-//                    mBinding.tvNoDataFound.text = "vidhi"
-//                }
-//                println("Hello,")
-//                println("after hello" + Thread.currentThread().id)
-//                delay(5000)
-//                job.join() // wait until child coroutine completes
-//            }
-//            println("after runBlocking" + Thread.currentThread().id)
-//        }
+        mBinding.ivAdd.setOnClickListener {
+            println("before runblocking " + Thread.currentThread().id)
+            runBlocking {
+                println("in runblocking " + Thread.currentThread().id)
+
+                val job = launch(UI) {
+                    println("In launch " + Thread.currentThread().id)
+                }
+                println("after launch " + Thread.currentThread().id)
+                job.join() // wait until child coroutine completes
+            }
+            println("after runBlocking " + Thread.currentThread().id)
+        }
 
 
         //start multiple coroutines
@@ -516,33 +518,34 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //        logD("onDestory")
     }
 
-}
+
+    fun getData(): UserResp = runBlocking {
 
 
-fun getData(): UserResp = runBlocking {
+        var call = ApiClient.service.getUserDetails()
 
 
-    var call = ApiClient.service.getUserDetails()
+        val deferred = CompletableDeferred<UserResp>()
 
+        deferred.invokeOnCompletion {
+            if (deferred.isCancelled) {
+                call.cancel()
 
-    val deferred = CompletableDeferred<UserResp>()
-
-    deferred.invokeOnCompletion {
-        if (deferred.isCancelled) {
-            call.cancel()
-
+            }
         }
+
+
+        call.enqueue(RetrofitCallback {
+            lazyProgressView = mBinding.progressBar
+            on200Ok { call, response ->
+                deferred.complete(response?.body()!!)
+            }
+
+        })
+
+        return@runBlocking deferred.await()
+
     }
-
-
-    call.enqueue(RetrofitCallback {
-        on200Ok { call, response ->
-            deferred.complete(response?.body()!!)
-        }
-
-    })
-
-    return@runBlocking deferred.await()
 
 }
 

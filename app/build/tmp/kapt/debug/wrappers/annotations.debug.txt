@@ -114,6 +114,7 @@ m 0 0/Test component1
 m 0 0/Test copy
 m 0 0/Test copy$default
 m 0 0/MainActivityKt getData
+m 0 0/MainActivity getData
 a org.jetbrains.annotations.Nullable 1
 f 1 0/CalendarActivity lastDate
 m 1 0/CalendarActivity getLastDate
