@@ -1,0 +1,140 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.kirtan403.k4kotlin:k4kotlin:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-be157de42ca45503d6900a5977e1b97500a9384a.aar\6c7d4654e4d90d4a0f4cc5c408297df8\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.nitrico.lastadapter:lastadapter:2.2.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\lastadapter-2.2.2.aar\482bb48f2a2e0eddc7748dd442ecdf01\AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\213194b8aa078c8352636ef618d40b7a\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\2383444fd0d08e3e0854f7dda17f9a7c\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.kirtan403.k4kotlin:k4kotlin-retrofit:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a.aar\c724688037f728023e6d4b7a5b868e9c\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\906b7704268f1e6c71430a4b6320eb2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\22d482e1335cb1ed64055d5c9931cf18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a503d8bf38e4dd1d4f289efbc9f6c4bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\e25a77d5917629860651e514dbf6d98f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\7b99740c4f4039274dbe4d7fc2a28249\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\d3608a58c044412555b5122ecdb0100c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e80ac80b99a7626b68d4f6f2365ba842\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\296015f8fcf14fabb00d89abfd999ba3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\5ba31c517770d961ded3aa50e81e6a92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\d9475fdd4a5d731510fca673c17f9ac7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\72777dac9e2391efebc1af103399460a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d75e226722aa50bdb0a219a9c86bf84e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\90a9a5d3bbb08b69780604d6333c455b\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.inexture.kotlinex.SealedClassActivity
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:14:19-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.inexture.kotlinex.CalendarActivity
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:21:9-54
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:21:19-51
+activity#com.inexture.kotlinex.ChartActivity
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.inexture.kotlinex.MainActivity
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:19-47
+uses-sdk
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+MERGED from [com.github.kirtan403.k4kotlin:k4kotlin:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-be157de42ca45503d6900a5977e1b97500a9384a.aar\6c7d4654e4d90d4a0f4cc5c408297df8\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.kirtan403.k4kotlin:k4kotlin:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-be157de42ca45503d6900a5977e1b97500a9384a.aar\6c7d4654e4d90d4a0f4cc5c408297df8\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.nitrico.lastadapter:lastadapter:2.2.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\lastadapter-2.2.2.aar\482bb48f2a2e0eddc7748dd442ecdf01\AndroidManifest.xml:6:5-43
+MERGED from [com.github.nitrico.lastadapter:lastadapter:2.2.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\lastadapter-2.2.2.aar\482bb48f2a2e0eddc7748dd442ecdf01\AndroidManifest.xml:6:5-43
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\213194b8aa078c8352636ef618d40b7a\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\213194b8aa078c8352636ef618d40b7a\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\2383444fd0d08e3e0854f7dda17f9a7c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\2383444fd0d08e3e0854f7dda17f9a7c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.kirtan403.k4kotlin:k4kotlin-retrofit:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a.aar\c724688037f728023e6d4b7a5b868e9c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.kirtan403.k4kotlin:k4kotlin-retrofit:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a.aar\c724688037f728023e6d4b7a5b868e9c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\906b7704268f1e6c71430a4b6320eb2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\906b7704268f1e6c71430a4b6320eb2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\22d482e1335cb1ed64055d5c9931cf18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\22d482e1335cb1ed64055d5c9931cf18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a503d8bf38e4dd1d4f289efbc9f6c4bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a503d8bf38e4dd1d4f289efbc9f6c4bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\e25a77d5917629860651e514dbf6d98f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\e25a77d5917629860651e514dbf6d98f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\7b99740c4f4039274dbe4d7fc2a28249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\7b99740c4f4039274dbe4d7fc2a28249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\d3608a58c044412555b5122ecdb0100c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\d3608a58c044412555b5122ecdb0100c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e80ac80b99a7626b68d4f6f2365ba842\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e80ac80b99a7626b68d4f6f2365ba842\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\296015f8fcf14fabb00d89abfd999ba3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\296015f8fcf14fabb00d89abfd999ba3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\5ba31c517770d961ded3aa50e81e6a92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\5ba31c517770d961ded3aa50e81e6a92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\d9475fdd4a5d731510fca673c17f9ac7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\d9475fdd4a5d731510fca673c17f9ac7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\72777dac9e2391efebc1af103399460a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\72777dac9e2391efebc1af103399460a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d75e226722aa50bdb0a219a9c86bf84e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d75e226722aa50bdb0a219a9c86bf84e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\90a9a5d3bbb08b69780604d6333c455b\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\90a9a5d3bbb08b69780604d6333c455b\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml

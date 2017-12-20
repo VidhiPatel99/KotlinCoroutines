@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.kirtan403.k4kotlin:k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a.aar/c724688037f728023e6d4b7a5b868e9c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a.aar/c724688037f728023e6d4b7a5b868e9c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kirtan403.k4kotlin/k4kotlin-retrofit/be157de42ca45503d6900a5977e1b97500a9384a/816d249b8759b9bce1f55c1cc7f4fc26a76069ef/k4kotlin-retrofit-be157de42ca45503d6900a5977e1b97500a9384a-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

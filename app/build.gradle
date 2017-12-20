@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.inexture.kotlinex"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding.enabled = true
+}
+
+ext {
+    supportLibVersion = '27.0.2'
+    gradle_version = '3.0.1'
+    lastAdapterVersion = '2.2.2'
+    anko_version = '0.10.3'
+    retrofitVersion = '2.3.0'
+
+
+}
+
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //kt
+    compile 'com.github.kirtan403.k4kotlin:k4kotlin:be157de42ca45503d6900a5977e1b97500a9384a'
+    // Core extension functions
+    compile 'com.github.kirtan403.k4kotlin:k4kotlin-retrofit:be157de42ca45503d6900a5977e1b97500a9384a'
+    // Extensions for Retrofit
+
+    //recyclerview
+    compile "com.android.support:recyclerview-v7:$supportLibVersion"
+    //databinding
+    kapt "com.android.databinding:compiler:$gradle_version"
+    // Last adapter for RecyclerView adapters
+    compile "com.github.nitrico.lastadapter:lastadapter:${lastAdapterVersion}"
+
+    //anko coroutines
+    compile "org.jetbrains.anko:anko-coroutines:$anko_version"
+
+    //anko common
+    compile "org.jetbrains.anko:anko-commons:$anko_version"
+
+    //coroutines
+//    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.19.3'
+
+    //retrofit
+    compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+    compile 'com.squareup.okhttp3:logging-interceptor:3.7.0'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+
+}
+kapt {
+    generateStubs = true
+}
+

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calendar.xml",
+        "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\activity_calendar.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sealed_class.xml",
+        "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\activity_sealed_class.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_name.xml",
+        "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\row_name.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chart.xml",
+        "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\activity_chart.xml"
+    }
+]
