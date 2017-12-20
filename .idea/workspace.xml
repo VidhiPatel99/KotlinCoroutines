@@ -12,13 +12,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0b2fa1-eeda-4e9a-8236-c97a7ec824e5" name="Default" comment="init commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/SealedClassActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/SealedClassActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$2$job$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity$onCreate$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivityKt$getData$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivityKt$getData$3$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivityKt$getData$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$1$postInfoFromExtention$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$2$job$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$2$job$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$3$postInfoFromExtention$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity$onCreate$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivityKt$getData$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivityKt$getData$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivityKt$getData$3.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/JRxfogVzPaJCaawEnjYMz9pL46g=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/JRxfogVzPaJCaawEnjYMz9pL46g=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivity.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivityKt.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MainActivityKt.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MyListItem.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91/com/inexture/kotlinex/MyListItem.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/build-history.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/build-history.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/inputs/source-to-output.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/inputs/source-to-output.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/inputs/source-to-output.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/package-parts.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/package-parts.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/package-parts.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/proto.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/proto.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/proto.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/proto.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/source-to-classes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/source-to-classes.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/subtypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/subtypes.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/subtypes.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/supertypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/supertypes.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/jvm/kotlin/supertypes.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/file-to-id.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/file-to-id.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/file-to-id.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/file-to-id.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/id-to-file.tab_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.values" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.values" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/last-build.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/last-build.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/kapt/debug/classFileStubs/META-INF/app_debug.kotlin_module" afterPath="$PROJECT_DIR$/app/build/tmp/kapt/debug/classFileStubs/META-INF/app_debug.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/kapt/debug/classFileStubs/com/inexture/kotlinex/MainActivityKt.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt/debug/classFileStubs/com/inexture/kotlinex/MainActivityKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivityKt.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MainActivityKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MyListItem.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/inexture/kotlinex/MyListItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.s" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.s" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/counters.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/counters.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.values.s" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlinAfterJava/caches-jvm/lookups/lookups.tab.values.s" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/kapt/debug/wrappers/annotations.debug.txt" afterPath="$PROJECT_DIR$/app/build/tmp/kapt/debug/wrappers/annotations.debug.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/MainActivity.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,7 +240,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-              <folding />
+              <folding>
+                <element signature="e#31#445#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +250,8 @@
       <file leaf-file-name="Extensions.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/Extensions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+            <state relative-caret-position="17">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -126,7 +262,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="e#43#236#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +273,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/RetroFitApi/ApiInterface.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -144,12 +282,27 @@
       <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
               <folding>
-                <element signature="e#31#800#0" expanded="true" />
+                <element signature="e#31#969#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding>
+                <marker date="1513751060488" expanded="true" signature="911:940" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -169,8 +322,8 @@
       <file leaf-file-name="SealedClassActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/SealedClassActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+            <state relative-caret-position="476">
+              <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding>
                 <element signature="e#31#302#0" expanded="true" />
               </folding>
@@ -2117,10 +2270,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/CalendarActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/RetroFitApi/ApiInterface.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sealed_class.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/SealedClassActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/MainActivity.kt" />
       </list>
     </option>
   </component>
@@ -2175,6 +2328,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="KotlinEx">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="KotlinEx">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -2255,32 +2436,14 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinEx" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="KotlinEx">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="KotlinEx">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2289,7 +2452,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/Android_sdk/Sdk" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="device.picker.selection" value="2864004C8G640I2" />
     <property name="DEBUGGABLE_DEVICE" value="micromax-micromax_aq4502-192.168.137.69:5555" />
     <property name="DEBUGGABLE_PROCESS" value="com.inexture.kotlinex" />
@@ -2385,7 +2548,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513748939099" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513752866755" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2433,7 +2596,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513748939099" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513752866755" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2595,7 +2758,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513748939099" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513752866758" />
       </method>
     </configuration>
     <list size="1">
@@ -2654,7 +2817,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37883008" sideWeight="0.49485862" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2663,9 +2826,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37883008" sideWeight="0.5051414" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32729805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48885792" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -2854,7 +3017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2924,14 +3086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/Extensions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -2948,24 +3102,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <marker date="1513672248520" expanded="true" signature="911:940" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/CalendarActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="e#31#445#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2973,7 +3116,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#43#236#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2988,30 +3133,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/RetroFitApi/ApiInterface.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/SealedClassActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        <state relative-caret-position="476">
+          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding>
             <element signature="e#31#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <marker date="1513751060488" expanded="true" signature="911:940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/Extensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/RetroFitApi/ApiInterface.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inexture/kotlinex/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
           <folding>
-            <element signature="e#31#800#0" expanded="true" />
+            <element signature="e#31#969#0" expanded="true" />
           </folding>
         </state>
       </provider>

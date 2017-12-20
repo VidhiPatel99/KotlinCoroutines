@@ -1,7 +1,9 @@
 package com.inexture.kotlinex
 
 import android.arch.lifecycle.Lifecycle
+import android.arch.lifecycle.LifecycleObserver
 import android.arch.lifecycle.LifecycleOwner
+import android.arch.lifecycle.OnLifecycleEvent
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -16,6 +18,9 @@ import com.livinglifetechway.k4kotlin_retrofit.*
 import kotlinx.coroutines.experimental.*
 import kotlinx.coroutines.experimental.android.UI
 import org.jetbrains.anko.toast
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 import kotlin.system.measureTimeMillis
 
 //suspend fun <T> Call<T>.nqueue2(callback: Callback<T>) = enqueueAwait(callback)
@@ -35,90 +40,92 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
         mBinding.rvTest.layoutManager = LinearLayoutManager(this)
 
 
+        val userData = getData()
+        println(userData.toString())
         //val postInfo = getData()
         // println(postInfo)
 
 
         //get CompletedDeferred<T>
-        async(UI) {
-            //            launch(UI) {
-            val call = ApiClient.service.getUserDetails()
-            val postInfoFromExtention = call.enqueueAwait(callback = RetrofitCallback {
-                progressView = mBinding.progressBar
-                onCompleted { call, response, throwable ->
-                }
-
-                on200Ok { call, response ->
-                    val info = response?.body()
-                    println("onResponse....enqueueDeferred        " + response?.body())
-//                    mBinding.tvNoDataFound.text = info?.title
-                }
-
-                onFailureCallback { call, throwable ->
-                    println(throwable)
-                }
-            })
-            mBinding.tvTest.text = "test"
-
-            val info = postInfoFromExtention
-            println("deferredResp....enqueueDeferred      " + info)
-            mBinding.tvNoDataFound.text = info.data[0].first_name
-
+//        async(UI) {
+//            //            launch(UI) {
+//            val call = ApiClient.service.getUserDetails()
+//            val postInfoFromExtention = call.enqueueAwait(callback = RetrofitCallback {
+//                progressView = mBinding.progressBar
+//                onCompleted { call, response, throwable ->
+//                }
+//
+//                on200Ok { call, response ->
+//                    val info = response?.body()
+//                    println("onResponse....enqueueDeferred        " + response?.body())
+////                    mBinding.tvNoDataFound.text = info?.title
+//                }
+//
+//                onFailureCallback { call, throwable ->
+//                    println(throwable)
+//                }
+//            })
+//            mBinding.tvTest.text = "test"
+//
+//            val info = postInfoFromExtention
+//            println("deferredResp....enqueueDeferred      " + info)
+//            mBinding.tvNoDataFound.text = info.data[0].first_name
+//
+////            }
+//        }
+//
+//
+//        //directly get response.body()
+//        async(UI) {
+//            var postInfoFromExtention: UserResp? = null
+//            val job = launch(UI) {
+//                val call = ApiClient.service.getUserDetails()
+//                postInfoFromExtention = call.enqueueAwait(this@MainActivity, RetrofitCallback {
+//                    progressView = mBinding.progressBar
+//                    onCompleted { call, response, throwable ->
+//                    }
+//
+//                    on200Ok { call, response ->
+//                        val info = response?.body()
+//                        println("onResponse....enqueueAwait     " + response?.body())
+//                    }
+//
+//                    onFailureCallback { call, throwable ->
+//                        println(throwable)
+//                    }
+//                })
 //            }
-        }
-
-
-        //directly get response.body()
-        async(UI) {
-            var postInfoFromExtention: UserResp? = null
-            val job = launch(UI) {
-                val call = ApiClient.service.getUserDetails()
-                postInfoFromExtention = call.enqueueAwait(this@MainActivity, RetrofitCallback {
-                    progressView = mBinding.progressBar
-                    onCompleted { call, response, throwable ->
-                    }
-
-                    on200Ok { call, response ->
-                        val info = response?.body()
-                        println("onResponse....enqueueAwait     " + response?.body())
-                    }
-
-                    onFailureCallback { call, throwable ->
-                        println(throwable)
-                    }
-                })
-            }
-            job.join()
-            val info = postInfoFromExtention
-            println("deferredResp....enqueueAwait         " + info)
-            mBinding.tvNoDataFound.text = info!!.data[0].first_name
-
-        }
-
-
-        //get Deferred<Response<T>>
-        async(UI) {
-            val call = ApiClient.service.getUserDetails()
-            val postInfoFromExtention = call.enqueueDeferredResponse(lifeCycleOwner = null, callback = RetrofitCallback {
-                progressView = mBinding.progressBar
-                onCompleted { call, response, throwable ->
-                }
-
-                on200Ok { call, response ->
-                    val info = response?.body()
-                    println("onResponse....enqueueDeferredResponse       " + response?.body())
-//                    mBinding.tvNoDataFound.text = info?.title
-                }
-
-                onFailureCallback { call, throwable ->
-                    println(throwable)
-                }
-            })
-            val info = postInfoFromExtention.await()
-            println("deferredResp....enqueueDeferredResponse       " + info.body())
-            mBinding.tvNoDataFound.text = info.body()!!.data[0].first_name
-
-        }
+//            job.join()
+//            val info = postInfoFromExtention
+//            println("deferredResp....enqueueAwait         " + info)
+//            mBinding.tvNoDataFound.text = info!!.data[0].first_name
+//
+//        }
+//
+//
+//        //get Deferred<Response<T>>
+//        async(UI) {
+//            val call = ApiClient.service.getUserDetails()
+//            val postInfoFromExtention = call.enqueueDeferredResponse(lifeCycleOwner = null, callback = RetrofitCallback {
+//                progressView = mBinding.progressBar
+//                onCompleted { call, response, throwable ->
+//                }
+//
+//                on200Ok { call, response ->
+//                    val info = response?.body()
+//                    println("onResponse....enqueueDeferredResponse       " + response?.body())
+////                    mBinding.tvNoDataFound.text = info?.title
+//                }
+//
+//                onFailureCallback { call, throwable ->
+//                    println(throwable)
+//                }
+//            })
+//            val info = postInfoFromExtention.await()
+//            println("deferredResp....enqueueDeferredResponse       " + info.body())
+//            mBinding.tvNoDataFound.text = info.body()!!.data[0].first_name
+//
+//        }
 
 
 //            mBinding.progressBar.hide()
@@ -136,23 +143,25 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //        }
 
 //        join ex
-//        println("before" + Thread.currentThread().id)
+//        mBinding.ivAdd.setOnClickListener {
+//            println("before" + Thread.currentThread().id)
 //
-//        runBlocking {
-//            println("in async" + Thread.currentThread().id)
+//            runBlocking {
+//                println("in async" + Thread.currentThread().id)
 //
-//            val job = launch {
-//                // launch new coroutine and keep a reference to its Job
-//                delay(1000L)
-//                println("World!" + Thread.currentThread().id)
-//                mBinding.tvNoDataFound.text = "vidhi"
+//                val job = launch {
+//                    // launch new coroutine and keep a reference to its Job
+//                    delay(1000L)
+//                    println("World!" + Thread.currentThread().id)
+//                    mBinding.tvNoDataFound.text = "vidhi"
+//                }
+//                println("Hello,")
+//                println("after hello" + Thread.currentThread().id)
+//                delay(5000)
+//                job.join() // wait until child coroutine completes
 //            }
-//            println("Hello,")
-//            println("after hello" + Thread.currentThread().id)
-//            delay(5000)
-//            job.join() // wait until child coroutine completes
+//            println("after runBlocking" + Thread.currentThread().id)
 //        }
-//        println("after runBlocking" + Thread.currentThread().id)
 
 
         //start multiple coroutines
@@ -494,11 +503,11 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //        }
 
 
-        mBinding.ivAdd.setOnClickListener()
-        {
-            //                        createDialog()
-            toast("hiii")
-        }
+//        mBinding.ivAdd.setOnClickListener()
+//        {
+//            //                        createDialog()
+//            toast("hiii")
+//        }
 
     }
 
@@ -510,13 +519,13 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 }
 
 
-suspend fun getData(): Post {
+fun getData(): UserResp = runBlocking {
 
 
-    var call = ApiClient.service.getPost()
+    var call = ApiClient.service.getUserDetails()
 
 
-    val deferred = CompletableDeferred<Post>()
+    val deferred = CompletableDeferred<UserResp>()
 
     deferred.invokeOnCompletion {
         if (deferred.isCancelled) {
@@ -533,8 +542,10 @@ suspend fun getData(): Post {
 
     })
 
-    return deferred.await()
+    return@runBlocking deferred.await()
+
 }
+
 
 // this is your first suspending function
 suspend fun doWorld() {
