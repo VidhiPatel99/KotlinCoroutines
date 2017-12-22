@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.github.kirtan403.k4kotlin:k4kotlin:be157de42ca45503d6900a5977e1b97500a9384a] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\k4kotlin-be157de42ca45503d6900a5977e1b97500a9384a.aar\6c7d4654e4d90d4a0f4cc5c408297df8\AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.nitrico.lastadapter:lastadapter:2.2.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\lastadapter-2.2.2.aar\482bb48f2a2e0eddc7748dd442ecdf01\AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\213194b8aa078c8352636ef618d40b7a\AndroidManifest.xml:17:1-26:12
@@ -23,20 +23,20 @@ MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Inexture\.g
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\72777dac9e2391efebc1af103399460a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d75e226722aa50bdb0a219a9c86bf84e\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\90a9a5d3bbb08b69780604d6333c455b\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
 		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:2:11-69
@@ -45,7 +45,7 @@ ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Inexture\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9e2b42c37fe756463eaa4c7864d2f6f3\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -83,9 +83,13 @@ ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:22:9-51
 	android:name
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:22:19-48
 activity#com.inexture.kotlinex.SealedClassActivity
-ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:9-66
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:9-57
 	android:name
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:19-54
+activity#com.inexture.kotlinex.CoroutinesUIActivity
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:24:9-67
+	android:name
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:24:19-55
 uses-sdk
 INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml

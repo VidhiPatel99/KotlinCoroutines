@@ -7,6 +7,8 @@ class DataBinderMapper  {
     }
     public android.databinding.ViewDataBinding getDataBinder(android.databinding.DataBindingComponent bindingComponent, android.view.View view, int layoutId) {
         switch(layoutId) {
+                case com.inexture.kotlinex.R.layout.activity_coroutines_ui:
+                    return com.inexture.kotlinex.databinding.ActivityCoroutinesUiBinding.bind(view, bindingComponent);
                 case com.inexture.kotlinex.R.layout.activity_sealed_class:
                     return com.inexture.kotlinex.databinding.ActivitySealedClassBinding.bind(view, bindingComponent);
                 case com.inexture.kotlinex.R.layout.activity_main:
@@ -31,6 +33,12 @@ class DataBinderMapper  {
         }
         final int code = tag.hashCode();
         switch(code) {
+            case -1156676482: {
+                if(tag.equals("layout/activity_coroutines_ui_0")) {
+                    return com.inexture.kotlinex.R.layout.activity_coroutines_ui;
+                }
+                break;
+            }
             case -1094974319: {
                 if(tag.equals("layout/activity_sealed_class_0")) {
                     return com.inexture.kotlinex.R.layout.activity_sealed_class;

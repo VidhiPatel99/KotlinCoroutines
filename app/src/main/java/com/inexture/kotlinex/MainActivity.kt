@@ -8,6 +8,7 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
+import com.inexture.kotlinex.R.id.info
 import com.inexture.kotlinex.RetroFitApi.ApiClient
 import com.inexture.kotlinex.RetroFitApi.Post
 import com.inexture.kotlinex.RetroFitApi.UserResp
@@ -27,12 +28,15 @@ import kotlin.system.measureTimeMillis
 
 //suspend fun <T> Call<T>.nqueue2(callback: Callback<T>) = enqueueAwait(callback)
 
-class MainActivity : AppCompatActivity(), LifecycleOwner {
+
+class MainActivity() : AppCompatActivity(), LifecycleOwner, JobHolder {
     private val mList: ArrayList<MyListItem>? = arrayListOf()
     private val mEmptyList: ArrayList<MyListItem> = arrayListOf()
     private var msg: String? = null
     private var mConsList: List<ConsResp.Data>? = ArrayList()
     private var newConsList: ArrayList<ConsResp.Data>? = arrayListOf()
+
+    override val job: Job = Job()
 
 
     lateinit var mBinding: ActivityMainBinding
@@ -42,6 +46,7 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
         mBinding.rvTest.layoutManager = LinearLayoutManager(this)
 
 
+        cancelCoroutines(this, job)
 //        mBinding.ivAdd.setOnClickListener {
 //            mBinding.progressBar.show()
 //            async {
@@ -55,10 +60,10 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 
 
         //get CompletedDeferred<T>
-//        async(UI) {
-//            //            launch(UI) {
+//        var postInfoFromExtention: UserResp? = null
+//        launch(UI, CoroutineStart.UNDISPATCHED) {
 //            val call = ApiClient.service.getUserDetails()
-//            val postInfoFromExtention = call.enqueueAwait(callback = RetrofitCallback {
+//            postInfoFromExtention = call.enqueueAwait(callback = RetrofitCallback {
 //                progressView = mBinding.progressBar
 //                onCompleted { call, response, throwable ->
 //                }
@@ -73,14 +78,13 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //                    println(throwable)
 //                }
 //            })
-//            mBinding.tvTest.text = "test"
-//
 //            val info = postInfoFromExtention
 //            println("deferredResp....enqueueDeferred      " + info)
-//            mBinding.tvNoDataFound.text = info.data[0].first_name
-//
-////            }
+//            mBinding.tvNoDataFound.text = info!!.data[0].first_name
 //        }
+//
+//
+//        mBinding.tvTest.text = "after enqueue await"
 //
 //
 //        //directly get response.body()
@@ -109,35 +113,35 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //            mBinding.tvNoDataFound.text = info!!.data[0].first_name
 //
 //        }
-//
+
 //
 //        //get Deferred<Response<T>>
-//        async(UI) {
-//            val call = ApiClient.service.getUserDetails()
-//            val postInfoFromExtention = call.enqueueDeferredResponse(lifeCycleOwner = null, callback = RetrofitCallback {
-//                progressView = mBinding.progressBar
-//                onCompleted { call, response, throwable ->
-//                }
-//
-//                on200Ok { call, response ->
-//                    val info = response?.body()
-//                    println("onResponse....enqueueDeferredResponse       " + response?.body())
-////                    mBinding.tvNoDataFound.text = info?.title
-//                }
-//
-//                onFailureCallback { call, throwable ->
-//                    println(throwable)
-//                }
-//            })
-//            val info = postInfoFromExtention.await()
-//            println("deferredResp....enqueueDeferredResponse       " + info.body())
-//            mBinding.tvNoDataFound.text = info.body()!!.data[0].first_name
-//
-//        }
+        async(UI) {
+            var postInfoFromExtention: CompletableDeferred<Response<UserResp>>? = null
+            launch(UI, CoroutineStart.UNDISPATCHED) {
+                val call = ApiClient.service.getUserDetails()
+                postInfoFromExtention = call.enqueueDeferredResponse(lifeCycleOwner = null, callback = RetrofitCallback {
+                    progressView = mBinding.progressBar
+                    onCompleted { call, response, throwable ->
+                    }
 
+                    on200Ok { call, response ->
+                        val info = response?.body()
+                        println("onResponse....enqueueDeferredResponse       " + response?.body())
+//                    mBinding.tvNoDataFound.text = info?.title
+                    }
 
-//            mBinding.progressBar.hide()
-//            mBinding.tvNoDataFound.text = info.title
+                    onFailureCallback { call, throwable ->
+                        println(throwable)
+                    }
+                })
+            }
+            val info = postInfoFromExtention?.await()
+            println("deferredResp....enqueueDeferredResponse       " + info?.body())
+            mBinding.tvNoDataFound.text = info?.body()!!.data[0].first_name
+            mBinding.tvTest.text = "after deferred call"
+
+        }
 
 
         //with extract suspending fun
@@ -151,19 +155,19 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 //        }
 
 //        join ex
-        mBinding.ivAdd.setOnClickListener {
-            println("before runblocking " + Thread.currentThread().id)
-            runBlocking {
-                println("in runblocking " + Thread.currentThread().id)
-
-                val job = launch(UI) {
-                    println("In launch " + Thread.currentThread().id)
-                }
-                println("after launch " + Thread.currentThread().id)
-                job.join() // wait until child coroutine completes
-            }
-            println("after runBlocking " + Thread.currentThread().id)
-        }
+//        mBinding.ivAdd.setOnClickListener {
+//            println("before runblocking " + Thread.currentThread().id)
+//            runBlocking {
+//                println("in runblocking " + Thread.currentThread().id)
+//
+//                val job = launch(UI) {
+//                    println("In launch " + Thread.currentThread().id)
+//                }
+//                println("after launch " + Thread.currentThread().id)
+//                job.join() // wait until child coroutine completes
+//            }
+//            println("after runBlocking " + Thread.currentThread().id)
+//        }
 
 
         //start multiple coroutines

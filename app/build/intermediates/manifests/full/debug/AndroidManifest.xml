@@ -29,6 +29,7 @@
         <activity android:name="com.inexture.kotlinex.CalendarActivity" />
         <activity android:name="com.inexture.kotlinex.ChartActivity" />
         <activity android:name="com.inexture.kotlinex.SealedClassActivity" />
+        <activity android:name="com.inexture.kotlinex.CoroutinesUIActivity" />
     </application>
 
 </manifest>

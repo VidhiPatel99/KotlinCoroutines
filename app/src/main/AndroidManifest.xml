@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".CalendarActivity" />
         <activity android:name=".ChartActivity" />
-        <activity android:name=".SealedClassActivity"></activity>
+        <activity android:name=".SealedClassActivity" />
+        <activity android:name=".CoroutinesUIActivity"></activity>
     </application>
 
 </manifest>

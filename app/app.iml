@@ -46,6 +46,7 @@
               <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.1.60/3b6a750e48ac6a4ca5f0fba633385825610dce3e/kotlin-android-extensions-1.1.60.jar" />
             </array>
           </option>
+          <option name="coroutinesState" value="enable" />
         </compilerArguments>
       </configuration>
     </facet>
