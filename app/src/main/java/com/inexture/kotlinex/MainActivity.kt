@@ -29,14 +29,14 @@ import kotlin.system.measureTimeMillis
 //suspend fun <T> Call<T>.nqueue2(callback: Callback<T>) = enqueueAwait(callback)
 
 
-class MainActivity() : AppCompatActivity(), LifecycleOwner, JobHolder {
+class MainActivity() : AppCompatActivity(), LifecycleOwner {
     private val mList: ArrayList<MyListItem>? = arrayListOf()
     private val mEmptyList: ArrayList<MyListItem> = arrayListOf()
     private var msg: String? = null
     private var mConsList: List<ConsResp.Data>? = ArrayList()
     private var newConsList: ArrayList<ConsResp.Data>? = arrayListOf()
 
-    override val job: Job = Job()
+
 
 
     lateinit var mBinding: ActivityMainBinding
@@ -46,7 +46,6 @@ class MainActivity() : AppCompatActivity(), LifecycleOwner, JobHolder {
         mBinding.rvTest.layoutManager = LinearLayoutManager(this)
 
 
-        cancelCoroutines(this, job)
 //        mBinding.ivAdd.setOnClickListener {
 //            mBinding.progressBar.show()
 //            async {

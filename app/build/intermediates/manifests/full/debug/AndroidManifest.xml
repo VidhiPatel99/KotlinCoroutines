@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.inexture.kotlinex.MainActivity" >
+        <activity android:name="com.inexture.kotlinex.CoroutinesUIActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,7 @@
         <activity android:name="com.inexture.kotlinex.CalendarActivity" />
         <activity android:name="com.inexture.kotlinex.ChartActivity" />
         <activity android:name="com.inexture.kotlinex.SealedClassActivity" />
-        <activity android:name="com.inexture.kotlinex.CoroutinesUIActivity" />
+        <activity android:name="com.inexture.kotlinex.MainActivity" />
     </application>
 
 </manifest>

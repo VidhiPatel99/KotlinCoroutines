@@ -3,17 +3,17 @@ package com.inexture.kotlinex
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.inexture.kotlinex.RetroFitApi.ApiClient
+import com.inexture.kotlinex.RetroFitApi.UserResp
 import com.inexture.kotlinex.databinding.ActivityCoroutinesUiBinding
 import com.livinglifetechway.k4kotlin.onClick
 import com.livinglifetechway.k4kotlin.setBindingView
-import com.livinglifetechway.k4kotlin.toast
-import com.livinglifetechway.k4kotlin.toastNow
+import com.livinglifetechway.k4kotlin_retrofit.RetrofitCallback
 import kotlinx.coroutines.experimental.*
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.channels.Channel
 import kotlinx.coroutines.experimental.channels.actor
-import org.w3c.dom.Text
-import kotlin.coroutines.experimental.EmptyCoroutineContext.get
+import retrofit2.Response
 
 
 interface JobHolder {
@@ -27,11 +27,11 @@ class CoroutinesUIActivity() : AppCompatActivity(), JobHolder {
 
 
     override val job: Job = Job()
-    //
-    override fun onDestroy() {
-        super.onDestroy()
-        job.cancel()
-    }
+
+//    override fun onDestroy() {
+//        super.onDestroy()
+//        job.cancel()
+//    }
 
     val View.contextJob: Job
         get() = (context as? JobHolder)?.job ?: NonCancellable
@@ -42,19 +42,29 @@ class CoroutinesUIActivity() : AppCompatActivity(), JobHolder {
         super.onCreate(savedInstanceState)
         mBinging = setBindingView(R.layout.activity_coroutines_ui)
 
-        cancelCoroutines(this, job)
-        println("Before launch")
-        launch(UI) {
-            // <--- Notice this change
-            println("Inside coroutine")
-            while (true) {
+
+        launchCoroutines(UI) {
+            for (i in 1..10000) {
                 delay(500)
-                println("in loop")// <--- And this is where coroutine suspends
+                println(i)
             }
-            println("After delay")
         }
-        println("After launch")
-        setup()
+
+
+//        println("Before launch")
+//        launch(job + UI) {
+//            // <--- Notice this change
+//            println("Inside coroutine")
+//            var i = 1
+//            while (true) {
+//                delay(500)
+//                println("in loop $i")
+//                i++
+//            }
+//            println("After delay")
+//        }
+//        println("After launch")
+//        setup()
 
     }
 
@@ -67,7 +77,7 @@ class CoroutinesUIActivity() : AppCompatActivity(), JobHolder {
     fun setup() {
         var result = "none" // the last result
         // counting animation
-        launch(job + UI) {
+        launch(UI) {
             var counter = 0
             while (true) {
                 mBinging.tvHello.text = "${++counter}: $result"

@@ -6,19 +6,12 @@ import android.arch.lifecycle.LifecycleObserver
 import android.arch.lifecycle.LifecycleOwner
 import android.arch.lifecycle.OnLifecycleEvent
 import android.support.v7.app.AppCompatActivity
-import com.inexture.kotlinex.RetroFitApi.Post
-import com.livinglifetechway.k4kotlin.orFalse
-import com.livinglifetechway.k4kotlin_retrofit.RetrofitCallback
-import com.livinglifetechway.k4kotlin_retrofit.enqueue
-import kotlinx.coroutines.experimental.CancellableContinuation
-import kotlinx.coroutines.experimental.CompletableDeferred
-import kotlinx.coroutines.experimental.Job
-import kotlinx.coroutines.experimental.suspendCancellableCoroutine
-import org.jetbrains.anko.coroutines.experimental.bg
+import kotlinx.coroutines.experimental.*
+import kotlinx.coroutines.experimental.android.UI
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.util.*
+import kotlin.coroutines.experimental.CoroutineContext
 
 
 /**
@@ -131,13 +124,17 @@ fun <T> Call<T>.enqueueDeferredResponse(lifeCycleOwner: LifecycleOwner? = null, 
     return deferred
 }
 
-
-fun cancelCoroutines(lifeCycleOwner: LifecycleOwner, job: Job) {
-    lifeCycleOwner.lifecycle.addObserver(object : LifecycleObserver {
+fun AppCompatActivity.launchCoroutines(coroutineContext: CoroutineContext, launchBody: suspend () -> Unit): Job {
+    val job = launch(coroutineContext) {
+        launchBody()
+    }
+    this.lifecycle.addObserver(object : LifecycleObserver {
         @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
-        fun cancelCoroutine() {
+        fun cancel() {
+            println("exiting")
             job.cancel()
         }
     })
 
+    return job
 }

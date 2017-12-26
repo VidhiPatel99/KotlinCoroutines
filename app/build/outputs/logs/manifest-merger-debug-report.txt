@@ -60,10 +60,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\In
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.inexture.kotlinex.MainActivity
+activity#com.inexture.kotlinex.CoroutinesUIActivity
 ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:14:19-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
@@ -86,10 +86,10 @@ activity#com.inexture.kotlinex.SealedClassActivity
 ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:9-57
 	android:name
 		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:23:19-54
-activity#com.inexture.kotlinex.CoroutinesUIActivity
-ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:24:9-67
+activity#com.inexture.kotlinex.MainActivity
+ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:24:9-59
 	android:name
-		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:24:19-55
+		ADDED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml:24:19-47
 uses-sdk
 INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\AndroidDemo\KotlinEx\app\src\main\AndroidManifest.xml

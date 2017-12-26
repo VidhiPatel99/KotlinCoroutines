@@ -117,6 +117,8 @@ m 0 0/ExtensionsKt enqueueDeferredResponse
 m 0 0/ExtensionsKt enqueueDeferredResponse$default
 f 0 0/MainActivity job
 m 0 0/MainActivity getJob
+m 0 0/ExtensionsKt cancelCoroutines
+m 0 0/ExtensionsKt launchCoroutines
 a org.jetbrains.annotations.Nullable 1
 f 1 0/CalendarActivity lastDate
 m 1 0/CalendarActivity getLastDate
