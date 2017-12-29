@@ -1,11 +1,13 @@
 package com.inexture.kotlinex
 
+import android.annotation.SuppressLint
 import android.arch.lifecycle.Lifecycle
 import android.arch.lifecycle.LifecycleObserver
 import android.arch.lifecycle.LifecycleOwner
 import android.arch.lifecycle.OnLifecycleEvent
 import android.databinding.DataBindingUtil
 import android.os.Bundle
+import android.provider.Contacts
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import com.inexture.kotlinex.R.id.info
@@ -20,6 +22,7 @@ import com.livinglifetechway.k4kotlin.show
 import com.livinglifetechway.k4kotlin_retrofit.*
 import kotlinx.coroutines.experimental.*
 import kotlinx.coroutines.experimental.android.UI
+import org.jetbrains.anko.UI
 import org.jetbrains.anko.toast
 import retrofit2.Call
 import retrofit2.Callback

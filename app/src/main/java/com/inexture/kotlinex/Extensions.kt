@@ -1,13 +1,13 @@
 package com.inexture.kotlinex
 
-import android.app.Activity
 import android.arch.lifecycle.Lifecycle
 import android.arch.lifecycle.LifecycleObserver
 import android.arch.lifecycle.LifecycleOwner
 import android.arch.lifecycle.OnLifecycleEvent
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
+import com.inexture.kotlinex.permissions.PermissionUtils
 import kotlinx.coroutines.experimental.*
-import kotlinx.coroutines.experimental.android.UI
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -122,6 +122,12 @@ fun <T> Call<T>.enqueueDeferredResponse(lifeCycleOwner: LifecycleOwner? = null, 
     })
 
     return deferred
+}
+
+suspend fun AppCompatActivity.startNewActivity(intent: Intent): CompletableDeferred<ArrayList<Boolean>> {
+    this.startActivity(intent)
+    PermissionUtils.instance = CompletableDeferred()
+    return PermissionUtils.instance!!
 }
 
 fun AppCompatActivity.launchCoroutines(coroutineContext: CoroutineContext, launchBody: suspend () -> Unit): Job {

@@ -2,11 +2,13 @@
 package android.databinding;
 import com.inexture.kotlinex.BR;
 class DataBinderMapper  {
-    final static int TARGET_MIN_SDK = 17;
+    final static int TARGET_MIN_SDK = 19;
     public DataBinderMapper() {
     }
     public android.databinding.ViewDataBinding getDataBinder(android.databinding.DataBindingComponent bindingComponent, android.view.View view, int layoutId) {
         switch(layoutId) {
+                case com.inexture.kotlinex.R.layout.activity_storage_access_ex:
+                    return com.inexture.kotlinex.databinding.ActivityStorageAccessExBinding.bind(view, bindingComponent);
                 case com.inexture.kotlinex.R.layout.activity_coroutines_ui:
                     return com.inexture.kotlinex.databinding.ActivityCoroutinesUiBinding.bind(view, bindingComponent);
                 case com.inexture.kotlinex.R.layout.activity_sealed_class:
@@ -33,6 +35,12 @@ class DataBinderMapper  {
         }
         final int code = tag.hashCode();
         switch(code) {
+            case -114188944: {
+                if(tag.equals("layout/activity_storage_access_ex_0")) {
+                    return com.inexture.kotlinex.R.layout.activity_storage_access_ex;
+                }
+                break;
+            }
             case -1156676482: {
                 if(tag.equals("layout/activity_coroutines_ui_0")) {
                     return com.inexture.kotlinex.R.layout.activity_coroutines_ui;

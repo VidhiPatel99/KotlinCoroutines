@@ -19,11 +19,11 @@ public final class R {
         public static final int item_touch_helper_swipe_escape_velocity = 0x7f060083;
     }
     public static final class id {
-        public static final int dataBinding = 0x7f080037;
-        public static final int item_touch_helper_previous_elevation = 0x7f080056;
-        public static final int onAttachStateChangeListener = 0x7f08006b;
-        public static final int onDateChanged = 0x7f08006c;
-        public static final int textWatcher = 0x7f0800ab;
+        public static final int dataBinding = 0x7f080041;
+        public static final int item_touch_helper_previous_elevation = 0x7f080060;
+        public static final int onAttachStateChangeListener = 0x7f080076;
+        public static final int onDateChanged = 0x7f080077;
+        public static final int textWatcher = 0x7f0800b6;
     }
     public static final class styleable {
         public static final int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f03008a, 0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 0x7f0300b4, 0x7f03011a, 0x7f030129, 0x7f03012f };

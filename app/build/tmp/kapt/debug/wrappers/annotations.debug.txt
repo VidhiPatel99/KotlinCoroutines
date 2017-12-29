@@ -11,8 +11,20 @@ m 0 0/CalendarActivity getMYear
 m 0 0/HintSpinnerArrayAdapter getDropDownView
 f 0 0/ChartActivity mBinding
 m 0 0/ChartActivity getMBinding
+m 0 0/Example nonStaticFun
+p com.inexture.kotlinex.Example 1
+m 0 1/Companion staticFun
+f 0 0/CoroutinesUIActivity mBinging
+m 0 0/CoroutinesUIActivity getMBinging
+f 0 0/CoroutinesUIActivity job
+m 0 0/CoroutinesUIActivity getJob
+m 0 0/CoroutinesUIActivity getContextJob
+m 0 0/JobHolder getJob
 m 0 0/ExtensionsKt enqueueDeferred
 m 0 0/ExtensionsKt enqueueDeferred$default
+m 0 0/ExtensionsKt enqueueDeferredResponse
+m 0 0/ExtensionsKt enqueueDeferredResponse$default
+m 0 0/ExtensionsKt launchCoroutines
 f 0 0/MainActivity mBinding
 m 0 0/MainActivity getMBinding
 m 0 0/MainActivity getData
@@ -33,151 +45,158 @@ m 0 0/Test getEvent
 m 0 0/Test component1
 m 0 0/Test copy
 m 0 0/Test copy$default
-p com.inexture.kotlinex.RetroFitApi 1
-f 0 1/ApiClient BASE_URL
-m 0 1/ApiClient getBASE_URL
-m 0 1/ApiClient getService
-m 0 1/ApiInterface getPost
-m 0 1/ApiInterface getUserDetails
-f 0 1/Post title
-m 0 1/Post getTitle
-f 0 1/Post body
-m 0 1/Post getBody
-m 0 1/Post component3
-m 0 1/Post component4
-m 0 1/Post copy
-m 0 1/Post copy$default
-f 0 1/UserResp data
-m 0 1/UserResp getData
-m 0 1/UserResp component5
-m 0 1/UserResp copy
-m 0 1/UserResp copy$default
-f 0 1/Data first_name
-m 0 1/Data getFirst_name
-f 0 1/Data last_name
-m 0 1/Data getLast_name
-f 0 1/Data avatar
-m 0 1/Data getAvatar
-m 0 1/Data component2
-m 0 1/Data component3
-m 0 1/Data component4
-m 0 1/Data copy
-m 0 1/Data copy$default
-p com.inexture.kotlinex.model.ConsResp 2
-f 0 2/ConstituencyResp message
-m 0 2/ConstituencyResp getMessage
-f 0 2/ConstituencyResp data
-m 0 2/ConstituencyResp getData
-m 0 2/ConstituencyResp component2
-m 0 2/ConstituencyResp component3
-m 0 2/ConstituencyResp copy
-m 0 2/ConstituencyResp copy$default
-f 0 2/Data consId
-m 0 2/Data getConsId
-f 0 2/Data consName
-m 0 2/Data getConsName
-f 0 2/Data consNumber
-m 0 2/Data getConsNumber
-f 0 2/Data consDist
-m 0 2/Data getConsDist
-f 0 2/Data consCategory
-m 0 2/Data getConsCategory
-f 0 2/Data consMaleVoters
-m 0 2/Data getConsMaleVoters
-f 0 2/Data consFemaleVoters
-m 0 2/Data getConsFemaleVoters
-f 0 2/Data consOtherVoters
-m 0 2/Data getConsOtherVoters
-f 0 2/Data consTotalVoters
-m 0 2/Data getConsTotalVoters
-f 0 2/Data consLatitude
-m 0 2/Data getConsLatitude
-f 0 2/Data consLongitude
-m 0 2/Data getConsLongitude
-m 0 2/Data component1
+f 0 0/StorageAccessExActivity mBinding
+m 0 0/StorageAccessExActivity getMBinding
+p com.inexture.kotlinex.RetroFitApi 2
+f 0 2/ApiClient BASE_URL
+m 0 2/ApiClient getBASE_URL
+m 0 2/ApiClient getService
+m 0 2/ApiInterface getPost
+m 0 2/ApiInterface getUserDetails
+f 0 2/Post title
+m 0 2/Post getTitle
+f 0 2/Post body
+m 0 2/Post getBody
+m 0 2/Post component3
+m 0 2/Post component4
+m 0 2/Post copy
+m 0 2/Post copy$default
+f 0 2/UserResp data
+m 0 2/UserResp getData
+m 0 2/UserResp component5
+m 0 2/UserResp copy
+m 0 2/UserResp copy$default
+f 0 2/Data first_name
+m 0 2/Data getFirst_name
+f 0 2/Data last_name
+m 0 2/Data getLast_name
+f 0 2/Data avatar
+m 0 2/Data getAvatar
 m 0 2/Data component2
 m 0 2/Data component3
 m 0 2/Data component4
-m 0 2/Data component5
-m 0 2/Data component6
-m 0 2/Data component7
-m 0 2/Data component8
-m 0 2/Data component9
-m 0 2/Data component10
-m 0 2/Data component11
 m 0 2/Data copy
 m 0 2/Data copy$default
-f 0 0/CoroutinesUIActivity mBinging
-m 0 0/CoroutinesUIActivity getMBinging
-f 0 0/CoroutinesUIActivity job
-m 0 0/CoroutinesUIActivity getJob
-m 0 0/JobHolder getJob
-m 0 0/CoroutinesUIActivity getContextJob
-m 0 0/ExtensionsKt enqueueDeferredResponse
-m 0 0/ExtensionsKt enqueueDeferredResponse$default
-f 0 0/MainActivity job
-m 0 0/MainActivity getJob
-m 0 0/ExtensionsKt cancelCoroutines
-m 0 0/ExtensionsKt launchCoroutines
+p com.inexture.kotlinex.model.ConsResp 3
+f 0 3/ConstituencyResp message
+m 0 3/ConstituencyResp getMessage
+f 0 3/ConstituencyResp data
+m 0 3/ConstituencyResp getData
+m 0 3/ConstituencyResp component2
+m 0 3/ConstituencyResp component3
+m 0 3/ConstituencyResp copy
+m 0 3/ConstituencyResp copy$default
+f 0 3/Data consId
+m 0 3/Data getConsId
+f 0 3/Data consName
+m 0 3/Data getConsName
+f 0 3/Data consNumber
+m 0 3/Data getConsNumber
+f 0 3/Data consDist
+m 0 3/Data getConsDist
+f 0 3/Data consCategory
+m 0 3/Data getConsCategory
+f 0 3/Data consMaleVoters
+m 0 3/Data getConsMaleVoters
+f 0 3/Data consFemaleVoters
+m 0 3/Data getConsFemaleVoters
+f 0 3/Data consOtherVoters
+m 0 3/Data getConsOtherVoters
+f 0 3/Data consTotalVoters
+m 0 3/Data getConsTotalVoters
+f 0 3/Data consLatitude
+m 0 3/Data getConsLatitude
+f 0 3/Data consLongitude
+m 0 3/Data getConsLongitude
+m 0 3/Data component1
+m 0 3/Data component2
+m 0 3/Data component3
+m 0 3/Data component4
+m 0 3/Data component5
+m 0 3/Data component6
+m 0 3/Data component7
+m 0 3/Data component8
+m 0 3/Data component9
+m 0 3/Data component10
+m 0 3/Data component11
+m 0 3/Data copy
+m 0 3/Data copy$default
 a org.jetbrains.annotations.Nullable 1
 f 1 0/CalendarActivity lastDate
 m 1 0/CalendarActivity getLastDate
 f 1 0/ChartActivity tvY
 m 1 0/ChartActivity getTvY
+f 1 0/Example nonStatic
+m 1 0/Example getNonStatic
+f 1 0/Example staticField
+m 1 1/Companion getStaticField
+m 1 0/CoroutinesUIActivity fib
 m 1 0/ExtensionsKt enqueueAwait
 m 1 0/ExtensionsKt enqueueAwait$default
-m 1 0/ExtensionsKt enqueueDeferredResponse
-m 1 0/ExtensionsKt enqueueDeferredResponse$default
+m 1 0/ExtensionsKt startNewActivity
 f 1 0/MyListItem name
 m 1 0/MyListItem getName
 m 1 0/MyListItem component1
 m 1 0/MainActivityKt doWorld
 m 1 0/MainActivityKt doSomethingUsefulOne
 m 1 0/MainActivityKt doSomethingUsefulTwo
-m 1 0/CoroutinesUIActivity fib
+p com.inexture.kotlinex.permissions 4
+f 1 4/PermissionUtils instance
+m 1 4/PermissionUtils getInstance
+f 1 4/PermissionUtils grantedPermission
+m 1 4/PermissionUtils getGrantedPermission
+f 1 4/PermissionUtils deniedPermission
+m 1 4/PermissionUtils getDeniedPermission
 a retrofit2.http.GET 2
-m 2 1/ApiInterface getPost
-m 2 1/ApiInterface getUserDetails
+m 2 2/ApiInterface getPost
+m 2 2/ApiInterface getUserDetails
 d 0/CalendarActivity
 d 0/HintSpinnerArrayAdapter
 d 0/ChartActivity
+d 0/CoreConceptsActivity
+d 0/MyClass
+d 0/Example
+d 1/Companion
 d 0/CoroutinesUIActivity
+d 0/JobHolder
+p com.inexture.kotlinex.JobHolder 5
+d 5/DefaultImpls
 d 0/ExtensionsKt
 d 0/MainActivity
 d 0/MyListItem
 d 0/MainActivityKt
 d 0/SealedClassActivity
 d 0/Operation
-p com.inexture.kotlinex.Operation 3
-d 3/Add
-d 3/Sub
-d 3/Mul
-d 3/Div
-d 3/Increment
-d 3/Decrement
+p com.inexture.kotlinex.Operation 6
+d 6/Add
+d 6/Sub
+d 6/Mul
+d 6/Div
+d 6/Increment
+d 6/Decrement
 d 0/UiOperation
-p com.inexture.kotlinex.UiOperation 4
-d 4/Show
-d 4/Hide
-d 4/TranslateX
-d 4/TranslateY
+p com.inexture.kotlinex.UiOperation 7
+d 7/Show
+d 7/Hide
+d 7/TranslateX
+d 7/TranslateY
 d 0/Ui
 d 0/MyMsg
 d 0/Msg
 d 0/Test
 d 0/SimpleClass
 d 0/SealedClassActivityKt
-d 1/ApiClient
-d 1/ApiInterface
-p com.inexture.kotlinex.RetroFitApi.ApiInterface 5
-d 5/DefaultImpls
-d 1/Post
-d 1/UserResp
-d 1/Data
-p com.inexture.kotlinex.model 6
-d 6/ConsResp
-d 2/ConstituencyResp
+d 0/StorageAccessExActivity
+d 4/PermissionUtils
+d 4/TransparentActivity
+d 2/ApiClient
+d 2/ApiInterface
+p com.inexture.kotlinex.RetroFitApi.ApiInterface 8
+d 8/DefaultImpls
+d 2/Post
+d 2/UserResp
 d 2/Data
-d 0/JobHolder
-p com.inexture.kotlinex.JobHolder 7
-d 7/DefaultImpls
+p com.inexture.kotlinex.model 9
+d 9/ConsResp
+d 3/ConstituencyResp
+d 3/Data

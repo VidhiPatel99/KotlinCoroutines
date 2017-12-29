@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_storage_access_ex.xml",
+        "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\activity_storage_access_ex.xml"
+    },
+    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_coroutines_ui.xml",
         "source": "E:\\AndroidDemo\\KotlinEx\\app\\src\\main\\res\\layout\\activity_coroutines_ui.xml"
     },
