@@ -1,5 +1,6 @@
 package com.inexture.kotlinex
 
+import android.Manifest
 import android.app.Activity
 import android.app.AlertDialog
 import android.content.DialogInterface
@@ -129,11 +130,18 @@ class StorageAccessExActivity : AppCompatActivity() {
         }
 
         mBinding.btnTest.setOnClickListener {
-            val intent = Intent(this@StorageAccessExActivity, TransparentActivity::class.java)
             async(UI) {
-                val myIntent = startNewActivity(intent)
-                val perms = myIntent.await()
-                perms.logD("permsResult")
+                val perms = arrayListOf(Manifest.permission.READ_CONTACTS, Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.CALL_PHONE, Manifest.permission.CAMERA)
+
+                val myIntent = checkForPermissions(perms)
+                val permsResult = myIntent.await()
+                permsResult.getAllGrantedPermission().logD("granted")
+                permsResult.getAllDeniedPermission().logD("denied")
+                permsResult.getGrantedPermissionCount().logD("grantedCount")
+                permsResult.getDeniedPermissionCount().logD("deniedCount")
+                permsResult.isAllPermsGranted().logD("isAllGranted")
+                permsResult.isAllPermsDenied().logD("isAllDenied")
                 toast("Hello")
             }
         }

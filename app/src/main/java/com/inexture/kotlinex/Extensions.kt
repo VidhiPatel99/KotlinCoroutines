@@ -7,6 +7,8 @@ import android.arch.lifecycle.OnLifecycleEvent
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import com.inexture.kotlinex.permissions.PermissionUtils
+import com.inexture.kotlinex.permissions.PermissionsResult
+import com.inexture.kotlinex.permissions.TransparentActivity
 import kotlinx.coroutines.experimental.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -124,7 +126,9 @@ fun <T> Call<T>.enqueueDeferredResponse(lifeCycleOwner: LifecycleOwner? = null, 
     return deferred
 }
 
-suspend fun AppCompatActivity.startNewActivity(intent: Intent): CompletableDeferred<ArrayList<Boolean>> {
+suspend fun AppCompatActivity.checkForPermissions(perms: ArrayList<String>): CompletableDeferred<PermissionsResult> {
+    val intent = Intent(this, TransparentActivity::class.java)
+    intent.putStringArrayListExtra("permsList", perms)
     this.startActivity(intent)
     PermissionUtils.instance = CompletableDeferred()
     return PermissionUtils.instance!!

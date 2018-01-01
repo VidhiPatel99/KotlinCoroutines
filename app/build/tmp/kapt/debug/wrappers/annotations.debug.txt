@@ -121,6 +121,13 @@ m 0 3/Data component10
 m 0 3/Data component11
 m 0 3/Data copy
 m 0 3/Data copy$default
+p com.inexture.kotlinex.permissions 4
+m 0 4/PermissionsResult getAllGrantedPermission
+m 0 4/PermissionsResult getAllDeniedPermission
+f 0 4/PermissionsResult permissions
+m 0 4/PermissionsResult getPermissions
+f 0 4/PermissionsResult grantResult
+m 0 4/PermissionsResult getGrantResult
 a org.jetbrains.annotations.Nullable 1
 f 1 0/CalendarActivity lastDate
 m 1 0/CalendarActivity getLastDate
@@ -140,7 +147,6 @@ m 1 0/MyListItem component1
 m 1 0/MainActivityKt doWorld
 m 1 0/MainActivityKt doSomethingUsefulOne
 m 1 0/MainActivityKt doSomethingUsefulTwo
-p com.inexture.kotlinex.permissions 4
 f 1 4/PermissionUtils instance
 m 1 4/PermissionUtils getInstance
 f 1 4/PermissionUtils grantedPermission
@@ -150,6 +156,8 @@ m 1 4/PermissionUtils getDeniedPermission
 a retrofit2.http.GET 2
 m 2 2/ApiInterface getPost
 m 2 2/ApiInterface getUserDetails
+a android.annotation.SuppressLint 3
+m 3 4/TransparentActivity onRequestPermissionsResult
 d 0/CalendarActivity
 d 0/HintSpinnerArrayAdapter
 d 0/ChartActivity
@@ -200,3 +208,4 @@ p com.inexture.kotlinex.model 9
 d 9/ConsResp
 d 3/ConstituencyResp
 d 3/Data
+d 4/PermissionsResult
