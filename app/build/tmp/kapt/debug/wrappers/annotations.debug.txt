@@ -47,87 +47,94 @@ m 0 0/Test copy
 m 0 0/Test copy$default
 f 0 0/StorageAccessExActivity mBinding
 m 0 0/StorageAccessExActivity getMBinding
-p com.inexture.kotlinex.RetroFitApi 2
-f 0 2/ApiClient BASE_URL
-m 0 2/ApiClient getBASE_URL
-m 0 2/ApiClient getService
-m 0 2/ApiInterface getPost
-m 0 2/ApiInterface getUserDetails
-f 0 2/Post title
-m 0 2/Post getTitle
-f 0 2/Post body
-m 0 2/Post getBody
-m 0 2/Post component3
-m 0 2/Post component4
-m 0 2/Post copy
-m 0 2/Post copy$default
-f 0 2/UserResp data
-m 0 2/UserResp getData
-m 0 2/UserResp component5
-m 0 2/UserResp copy
-m 0 2/UserResp copy$default
-f 0 2/Data first_name
-m 0 2/Data getFirst_name
-f 0 2/Data last_name
-m 0 2/Data getLast_name
-f 0 2/Data avatar
-m 0 2/Data getAvatar
-m 0 2/Data component2
-m 0 2/Data component3
-m 0 2/Data component4
-m 0 2/Data copy
-m 0 2/Data copy$default
-p com.inexture.kotlinex.model.ConsResp 3
-f 0 3/ConstituencyResp message
-m 0 3/ConstituencyResp getMessage
-f 0 3/ConstituencyResp data
-m 0 3/ConstituencyResp getData
-m 0 3/ConstituencyResp component2
-m 0 3/ConstituencyResp component3
-m 0 3/ConstituencyResp copy
-m 0 3/ConstituencyResp copy$default
-f 0 3/Data consId
-m 0 3/Data getConsId
-f 0 3/Data consName
-m 0 3/Data getConsName
-f 0 3/Data consNumber
-m 0 3/Data getConsNumber
-f 0 3/Data consDist
-m 0 3/Data getConsDist
-f 0 3/Data consCategory
-m 0 3/Data getConsCategory
-f 0 3/Data consMaleVoters
-m 0 3/Data getConsMaleVoters
-f 0 3/Data consFemaleVoters
-m 0 3/Data getConsFemaleVoters
-f 0 3/Data consOtherVoters
-m 0 3/Data getConsOtherVoters
-f 0 3/Data consTotalVoters
-m 0 3/Data getConsTotalVoters
-f 0 3/Data consLatitude
-m 0 3/Data getConsLatitude
-f 0 3/Data consLongitude
-m 0 3/Data getConsLongitude
-m 0 3/Data component1
+p com.inexture.kotlinex.permissions 2
+m 0 2/PermissionsResult getAllGrantedPermission
+m 0 2/PermissionsResult getAllDeniedPermission
+m 0 2/PermissionsResult getPermanentlyDeniedPermission
+f 0 2/PermissionsResult permissions
+m 0 2/PermissionsResult getPermissions
+f 0 2/PermissionsResult grantResult
+m 0 2/PermissionsResult getGrantResult
+f 0 2/PermissionsResult permanentlyDeniedPerms
+m 0 2/PermissionsResult getPermanentlyDeniedPerms
+p com.inexture.kotlinex.RetroFitApi 3
+f 0 3/ApiClient BASE_URL
+m 0 3/ApiClient getBASE_URL
+m 0 3/ApiClient getService
+m 0 3/ApiInterface getPost
+m 0 3/ApiInterface getUserDetails
+f 0 3/Post title
+m 0 3/Post getTitle
+f 0 3/Post body
+m 0 3/Post getBody
+m 0 3/Post component3
+m 0 3/Post component4
+m 0 3/Post copy
+m 0 3/Post copy$default
+f 0 3/UserResp data
+m 0 3/UserResp getData
+m 0 3/UserResp component5
+m 0 3/UserResp copy
+m 0 3/UserResp copy$default
+f 0 3/Data first_name
+m 0 3/Data getFirst_name
+f 0 3/Data last_name
+m 0 3/Data getLast_name
+f 0 3/Data avatar
+m 0 3/Data getAvatar
 m 0 3/Data component2
 m 0 3/Data component3
 m 0 3/Data component4
-m 0 3/Data component5
-m 0 3/Data component6
-m 0 3/Data component7
-m 0 3/Data component8
-m 0 3/Data component9
-m 0 3/Data component10
-m 0 3/Data component11
 m 0 3/Data copy
 m 0 3/Data copy$default
-p com.inexture.kotlinex.permissions 4
-m 0 4/PermissionsResult getAllGrantedPermission
-m 0 4/PermissionsResult getAllDeniedPermission
-f 0 4/PermissionsResult permissions
-m 0 4/PermissionsResult getPermissions
-f 0 4/PermissionsResult grantResult
-m 0 4/PermissionsResult getGrantResult
+p com.inexture.kotlinex.model.ConsResp 4
+f 0 4/ConstituencyResp message
+m 0 4/ConstituencyResp getMessage
+f 0 4/ConstituencyResp data
+m 0 4/ConstituencyResp getData
+m 0 4/ConstituencyResp component2
+m 0 4/ConstituencyResp component3
+m 0 4/ConstituencyResp copy
+m 0 4/ConstituencyResp copy$default
+f 0 4/Data consId
+m 0 4/Data getConsId
+f 0 4/Data consName
+m 0 4/Data getConsName
+f 0 4/Data consNumber
+m 0 4/Data getConsNumber
+f 0 4/Data consDist
+m 0 4/Data getConsDist
+f 0 4/Data consCategory
+m 0 4/Data getConsCategory
+f 0 4/Data consMaleVoters
+m 0 4/Data getConsMaleVoters
+f 0 4/Data consFemaleVoters
+m 0 4/Data getConsFemaleVoters
+f 0 4/Data consOtherVoters
+m 0 4/Data getConsOtherVoters
+f 0 4/Data consTotalVoters
+m 0 4/Data getConsTotalVoters
+f 0 4/Data consLatitude
+m 0 4/Data getConsLatitude
+f 0 4/Data consLongitude
+m 0 4/Data getConsLongitude
+m 0 4/Data component1
+m 0 4/Data component2
+m 0 4/Data component3
+m 0 4/Data component4
+m 0 4/Data component5
+m 0 4/Data component6
+m 0 4/Data component7
+m 0 4/Data component8
+m 0 4/Data component9
+m 0 4/Data component10
+m 0 4/Data component11
+m 0 4/Data copy
+m 0 4/Data copy$default
+f 0 0/StorageAccessExActivity myIntent
+m 0 0/StorageAccessExActivity getMyIntent
+f 0 0/StorageAccessExActivity permsResult
+m 0 0/StorageAccessExActivity getPermsResult
 a org.jetbrains.annotations.Nullable 1
 f 1 0/CalendarActivity lastDate
 m 1 0/CalendarActivity getLastDate
@@ -140,24 +147,24 @@ m 1 1/Companion getStaticField
 m 1 0/CoroutinesUIActivity fib
 m 1 0/ExtensionsKt enqueueAwait
 m 1 0/ExtensionsKt enqueueAwait$default
-m 1 0/ExtensionsKt startNewActivity
+m 1 0/ExtensionsKt checkForPermissions
 f 1 0/MyListItem name
 m 1 0/MyListItem getName
 m 1 0/MyListItem component1
 m 1 0/MainActivityKt doWorld
 m 1 0/MainActivityKt doSomethingUsefulOne
 m 1 0/MainActivityKt doSomethingUsefulTwo
-f 1 4/PermissionUtils instance
-m 1 4/PermissionUtils getInstance
-f 1 4/PermissionUtils grantedPermission
-m 1 4/PermissionUtils getGrantedPermission
-f 1 4/PermissionUtils deniedPermission
-m 1 4/PermissionUtils getDeniedPermission
-a retrofit2.http.GET 2
-m 2 2/ApiInterface getPost
-m 2 2/ApiInterface getUserDetails
-a android.annotation.SuppressLint 3
-m 3 4/TransparentActivity onRequestPermissionsResult
+f 1 2/PermissionUtils instance
+m 1 2/PermissionUtils getInstance
+f 1 2/PermissionUtils grantedPermission
+m 1 2/PermissionUtils getGrantedPermission
+f 1 2/PermissionUtils deniedPermission
+m 1 2/PermissionUtils getDeniedPermission
+a android.annotation.SuppressLint 2
+m 2 2/TransparentActivity onRequestPermissionsResult
+a retrofit2.http.GET 3
+m 3 3/ApiInterface getPost
+m 3 3/ApiInterface getUserDetails
 d 0/CalendarActivity
 d 0/HintSpinnerArrayAdapter
 d 0/ChartActivity
@@ -195,17 +202,17 @@ d 0/Test
 d 0/SimpleClass
 d 0/SealedClassActivityKt
 d 0/StorageAccessExActivity
-d 4/PermissionUtils
-d 4/TransparentActivity
-d 2/ApiClient
-d 2/ApiInterface
+d 2/PermissionUtils
+d 2/PermissionsResult
+d 2/TransparentActivity
+d 3/ApiClient
+d 3/ApiInterface
 p com.inexture.kotlinex.RetroFitApi.ApiInterface 8
 d 8/DefaultImpls
-d 2/Post
-d 2/UserResp
-d 2/Data
+d 3/Post
+d 3/UserResp
+d 3/Data
 p com.inexture.kotlinex.model 9
 d 9/ConsResp
-d 3/ConstituencyResp
-d 3/Data
-d 4/PermissionsResult
+d 4/ConstituencyResp
+d 4/Data

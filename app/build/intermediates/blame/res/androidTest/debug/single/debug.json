@@ -84,28 +84,28 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_popup_enter.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_popup_enter.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_btn_checkable.xml.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_edittext.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -164,12 +164,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\906b7704268f1e6c71430a4b6320eb2c\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_material.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ratingbar_material.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
@@ -204,12 +204,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\906b7704268f1e6c71430a4b6320eb2c\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_switch_thumb_material.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_switch_thumb_material.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_icon.xml.flat",
@@ -356,12 +356,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_avd_hide_password.xml.flat",
@@ -436,12 +436,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_search_view.xml.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -524,12 +524,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_clear_material.xml.flat",
@@ -576,12 +576,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -608,12 +608,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\d75e226722aa50bdb0a219a9c86bf84e\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -636,12 +636,12 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_item_background_holo_light.xml.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -652,16 +652,16 @@
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Inexture\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a503d8bf38e4dd1d4f289efbc9f6c4bc\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "E:\\AndroidDemo\\KotlinEx\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_expanded_menu_layout.xml.flat",

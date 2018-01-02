@@ -5,9 +5,7 @@ import android.content.pm.PackageManager
 /**
  * Created by Inexture on 1/1/2018.
  */
-class PermissionsResult(val permissions: Array<out String>, val grantResult: IntArray) {
-    private val isAllDenied: Boolean = false
-
+class PermissionsResult(val permissions: Array<out String>, val grantResult: IntArray, val permanentlyDeniedPerms: ArrayList<String>) {
 
     fun getAllGrantedPermission(): ArrayList<String> {
         val grantedPerms = arrayListOf<String>()
@@ -39,6 +37,26 @@ class PermissionsResult(val permissions: Array<out String>, val grantResult: Int
                 .filter { grantResult[it] == PackageManager.PERMISSION_DENIED }
                 .mapTo(deniedPerms) { permissions[it] }
         return deniedPerms.size
+    }
+
+    fun getPermanentlyDeniedPermission(): ArrayList<String> {
+        return permanentlyDeniedPerms
+    }
+
+    fun isPermGranted(permission: String): Boolean {
+        val grantedPerms = arrayListOf<String>()
+        (0 until permissions.size)
+                .filter { grantResult[it] == PackageManager.PERMISSION_GRANTED }
+                .mapTo(grantedPerms) { permissions[it] }
+        return grantedPerms.contains(permission)
+    }
+
+    fun isPermDenied(permission: String): Boolean {
+        val deniedPerms = arrayListOf<String>()
+        (0 until permissions.size)
+                .filter { grantResult[it] == PackageManager.PERMISSION_DENIED }
+                .mapTo(deniedPerms) { permissions[it] }
+        return deniedPerms.contains(permission)
     }
 
     fun isAllPermsGranted(): Boolean {

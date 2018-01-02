@@ -69,7 +69,7 @@ dependencies {
     //retrofit
     compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
     compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
-    compile 'com.squareup.okhttp3:logging-interceptor:3.7.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.9.1'
 
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
 
@@ -79,7 +79,7 @@ dependencies {
 
 
     //esay permission
-    implementation 'pub.devrel:easypermissions:1.1.1'
+//    implementation 'pub.devrel:easypermissions:1.1.1'
 }
 kapt {
     generateStubs = true

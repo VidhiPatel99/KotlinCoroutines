@@ -16,10 +16,12 @@ import com.livinglifetechway.k4kotlin.setBindingView
 import android.preference.PreferenceManager
 import android.widget.EditText
 import android.widget.LinearLayout
+import com.inexture.kotlinex.permissions.PermissionsResult
 import com.livinglifetechway.k4kotlin.value
 import java.io.*
 import com.inexture.kotlinex.permissions.TransparentActivity
 import com.livinglifetechway.k4kotlin.toast
+import kotlinx.coroutines.experimental.CompletableDeferred
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.async
 
@@ -35,6 +37,8 @@ class StorageAccessExActivity : AppCompatActivity() {
     private val OPEN_VIDEO_REQUEST_CODE = 17
     private val OPEN_IMAGE_REQUEST_CODE = 18
     private val OPEN_AUDIO_REQUEST_CODE = 19
+    lateinit var myIntent: CompletableDeferred<PermissionsResult>
+    lateinit var permsResult: PermissionsResult
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -129,22 +133,37 @@ class StorageAccessExActivity : AppCompatActivity() {
             startActivityForResult(intent, OPEN_AUDIO_REQUEST_CODE)
         }
 
+        val perms = arrayListOf(Manifest.permission.READ_CONTACTS, Manifest.permission.READ_EXTERNAL_STORAGE,
+                Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.CALL_PHONE, Manifest.permission.CAMERA)
+
+
+
         mBinding.btnTest.setOnClickListener {
             async(UI) {
-                val perms = arrayListOf(Manifest.permission.READ_CONTACTS, Manifest.permission.READ_EXTERNAL_STORAGE,
-                        Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.CALL_PHONE, Manifest.permission.CAMERA)
-
-                val myIntent = checkForPermissions(perms)
-                val permsResult = myIntent.await()
+                myIntent = checkForPermissions(perms)
+                permsResult = myIntent.await()
                 permsResult.getAllGrantedPermission().logD("granted")
                 permsResult.getAllDeniedPermission().logD("denied")
                 permsResult.getGrantedPermissionCount().logD("grantedCount")
                 permsResult.getDeniedPermissionCount().logD("deniedCount")
                 permsResult.isAllPermsGranted().logD("isAllGranted")
                 permsResult.isAllPermsDenied().logD("isAllDenied")
+                permsResult.isPermGranted(Manifest.permission.READ_CONTACTS).logD("isGranted")
+                permsResult.isPermDenied(Manifest.permission.ACCESS_FINE_LOCATION).logD("isDenied")
+                permsResult.getPermanentlyDeniedPermission().logD("permanentlyDenied")
+
                 toast("Hello")
             }
         }
+
+//        mBinding.btnNewReq.setOnClickListener {
+//            async(UI) {
+//                val permsnentyDeniedPerms = permsResult.getPermanentlyDeniedPermission()
+//                if (permsnentyDeniedPerms.contains(Manifest.permission.READ_CONTACTS)) {
+//                    checkForPermissions(arrayListOf(Manifest.permission.READ_CONTACTS))
+//                }
+//            }
+//        }
 
     }
 

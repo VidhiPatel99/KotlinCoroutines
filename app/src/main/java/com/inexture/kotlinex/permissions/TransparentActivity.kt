@@ -14,9 +14,8 @@ import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import com.inexture.kotlinex.R
 import com.livinglifetechway.k4kotlin.logD
-import pub.devrel.easypermissions.EasyPermissions
 
-class TransparentActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
+class TransparentActivity : AppCompatActivity() {
 
 
     //    private var manager: LocationManager? = null
@@ -61,44 +60,21 @@ class TransparentActivity : AppCompatActivity(), EasyPermissions.PermissionCallb
     @SuppressLint("NewApi")
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
 
-        val permsResult = PermissionsResult(permissions, grantResults)
-        val permsList: ArrayList<Boolean> = arrayListOf()
-//
-//        for (i in 1..permissions.size) {
-//            if (grantResults[i] == PackageManager.PERMISSION_DENIED) {
-//                val showRationale = shouldShowRequestPermissionRationale(permissions[i])
-//                if (!showRationale) {
-//
-//                } else {
-//
-//                }
-//            }
-//        }
+        val permanentlyDeniedPerms = arrayListOf<String>()
+        for (i in 0 until permissions.size) {
+            if (grantResults[i] == PackageManager.PERMISSION_DENIED) {
+                val showRationale = shouldShowRequestPermissionRationale(permissions[i])
+                if (!showRationale) {
+                    permanentlyDeniedPerms.add(permissions[i])
+                } else {
 
-
-        if (requestCode == MY_PERMISSIONS_REQUEST_CODE) {
-            if (grantResults.isNotEmpty()) {
-                for (perm in grantResults) {
-                    if (perm == PackageManager.PERMISSION_GRANTED) {
-                        permsList.add(true)
-                    } else if (perm == PackageManager.PERMISSION_DENIED) {
-                        permsList.add(false)
-                    }
                 }
             }
         }
-
+        val permsResult = PermissionsResult(permissions, grantResults, permanentlyDeniedPerms)
         PermissionUtils.instance?.complete(permsResult)
         finish()
     }
 
-    override fun onPermissionsDenied(requestCode: Int, perms: MutableList<String>) {
-        val deniedPerms = perms
-        finish()
-    }
 
-    override fun onPermissionsGranted(requestCode: Int, perms: MutableList<String>) {
-        val grantedPerms = perms
-        finish()
-    }
 }
