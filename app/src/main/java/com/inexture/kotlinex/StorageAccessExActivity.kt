@@ -11,16 +11,12 @@ import android.os.Bundle
 import android.provider.DocumentsContract
 import com.bumptech.glide.Glide
 import com.inexture.kotlinex.databinding.ActivityStorageAccessExBinding
-import com.livinglifetechway.k4kotlin.logD
-import com.livinglifetechway.k4kotlin.setBindingView
 import android.preference.PreferenceManager
 import android.widget.EditText
 import android.widget.LinearLayout
 import com.inexture.kotlinex.permissions.PermissionsResult
-import com.livinglifetechway.k4kotlin.value
+import com.livinglifetechway.k4kotlin.*
 import java.io.*
-import com.inexture.kotlinex.permissions.TransparentActivity
-import com.livinglifetechway.k4kotlin.toast
 import kotlinx.coroutines.experimental.CompletableDeferred
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.async
@@ -50,7 +46,28 @@ class StorageAccessExActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "text/plain"
-            startActivityForResult(intent, READ_REQUEST_CODE)
+//            startActivityForResult(intent, READ_REQUEST_CODE)
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    val uri = result.data
+                    uri.logD("textUri")
+                    //get inputStream
+                    val inputStream = contentResolver.openInputStream(uri)
+                    val reader = BufferedReader(InputStreamReader(
+                            inputStream))
+                    val stringBuilder = StringBuilder()
+                    var line: String? = ""
+                    while (true) {
+                        line = reader.readLine()
+                        if (line == null)
+                            break
+                        stringBuilder.append(line)
+                    }
+                    mBinding.tvInputStream.text = stringBuilder
+                }
+            }
         }
 
         //create "myNewFile" named(default) text file, can edit file name
@@ -59,7 +76,15 @@ class StorageAccessExActivity : AppCompatActivity() {
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "text/plain"
             intent.putExtra(Intent.EXTRA_TITLE, "myNewFile")
-            startActivityForResult(intent, WRITE_REQUEST_CODE)
+//            startActivityForResult(intent, WRITE_REQUEST_CODE)
+
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    toastNow("File created successfully")
+                }
+            }
         }
 
         //delete text file which you have selected
@@ -67,7 +92,17 @@ class StorageAccessExActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "*/*"
-            startActivityForResult(intent, DELETE_REQUEST_CODE)
+//            startActivityForResult(intent, DELETE_REQUEST_CODE)
+
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    DocumentsContract.deleteDocument(contentResolver, result.data)
+                    toastNow("File deleted successfully")
+
+                }
+            }
         }
 
         //edit text file by writing anything in editor dialog
@@ -75,7 +110,47 @@ class StorageAccessExActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "text/plain"
-            startActivityForResult(intent, EDIT_REQUEST_CODE)
+//            startActivityForResult(intent, EDIT_REQUEST_CODE)
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    try {
+                        val pfd = applicationContext.contentResolver.openFileDescriptor(result.data, "w")
+                        val fileOutputStream = FileOutputStream(pfd.fileDescriptor)
+                        val alertDialog: AlertDialog.Builder = AlertDialog.Builder(this@StorageAccessExActivity)
+                        alertDialog.setTitle("Test")
+                        alertDialog.setMessage("Enter something")
+
+                        val input = EditText(this@StorageAccessExActivity)
+                        val lp = LinearLayout.LayoutParams(
+                                LinearLayout.LayoutParams.MATCH_PARENT,
+                                LinearLayout.LayoutParams.MATCH_PARENT)
+                        input.layoutParams = lp
+                        alertDialog.setView(input)
+
+                        alertDialog.setPositiveButton("Ok", { dialog: DialogInterface?, which: Int ->
+                            fileOutputStream.write((input.value +
+                                    System.currentTimeMillis() + "\n").toByteArray())
+                            fileOutputStream.close()
+                            pfd.close()
+                        })
+
+                        alertDialog.setNegativeButton("Cancel", { dialog: DialogInterface?, which: Int ->
+                            dialog?.cancel()
+                        })
+
+                        alertDialog.show()
+
+
+                    } catch (e: FileNotFoundException) {
+                        e.printStackTrace()
+                    } catch (e: IOException) {
+                        e.printStackTrace()
+                    }
+                }
+            }
+
         }
 
         //persist permission example (store uri in preference and can open by clicking "OPEN FILE" button)
@@ -86,7 +161,19 @@ class StorageAccessExActivity : AppCompatActivity() {
                     or Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "text/plain"
-            startActivityForResult(intent, STORE_REQUEST_CODE)
+//            startActivityForResult(intent, STORE_REQUEST_CODE)
+
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    PreferenceManager.getDefaultSharedPreferences(applicationContext).edit().putString("URI", result.data.toString()).apply()
+
+                    //add flag for persist permission
+                    val takeFlags = result.flags and (Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
+                    applicationContext.contentResolver.takePersistableUriPermission(result.data, takeFlags)
+                }
+            }
         }
 
         //open file which has uri stored in preference(can also open after restart the device)
@@ -94,19 +181,20 @@ class StorageAccessExActivity : AppCompatActivity() {
         //append string from new line and set it in textView
         mBinding.btnPermission.setOnClickListener {
             val uri = PreferenceManager.getDefaultSharedPreferences(applicationContext).getString("URI", "")
-
-            val inputStream = contentResolver.openInputStream(Uri.parse(uri))
-            val reader = BufferedReader(InputStreamReader(
-                    inputStream))
-            val stringBuilder = StringBuilder()
-            var line: String? = ""
-            while (true) {
-                line = reader.readLine()
-                if (line == null)
-                    break
-                stringBuilder.append(line)
+            if (uri.isNotBlank()) {
+                val inputStream = contentResolver.openInputStream(Uri.parse(uri))
+                val reader = BufferedReader(InputStreamReader(
+                        inputStream))
+                val stringBuilder = StringBuilder()
+                var line: String? = ""
+                while (true) {
+                    line = reader.readLine()
+                    if (line == null)
+                        break
+                    stringBuilder.append(line)
+                }
+                mBinding.tvInputStream.text = stringBuilder
             }
-            mBinding.tvInputStream.text = stringBuilder
         }
 
         //show video file and play it in videoView
@@ -114,7 +202,19 @@ class StorageAccessExActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "video/*"
-            startActivityForResult(intent, OPEN_VIDEO_REQUEST_CODE)
+//            startActivityForResult(intent, OPEN_VIDEO_REQUEST_CODE)
+
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    mBinding.videoView.setVideoURI(result.data)
+                    mBinding.videoView.setOnPreparedListener { mp ->
+                        mp?.isLooping = true
+                        mBinding.videoView.start()
+                    }
+                }
+            }
         }
 
         //show image file and set it in imageView
@@ -122,7 +222,19 @@ class StorageAccessExActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "image/*"
-            startActivityForResult(intent, OPEN_IMAGE_REQUEST_CODE)
+//            startActivityForResult(intent, OPEN_IMAGE_REQUEST_CODE)
+
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    val uri = result.data
+                    uri.logD("imageUri")
+                    Glide.with(this@StorageAccessExActivity)
+                            .load(uri)
+                            .into(mBinding.ivShow)
+                }
+            }
         }
 
         //show audio file and play it
@@ -130,7 +242,19 @@ class StorageAccessExActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             intent.type = "audio/*"
-            startActivityForResult(intent, OPEN_AUDIO_REQUEST_CODE)
+//            startActivityForResult(intent, OPEN_AUDIO_REQUEST_CODE)
+
+            async(UI) {
+                val resultIntent = startNewActivity(intent)
+                val result = resultIntent?.await()
+                if (result != null) {
+                    mBinding.videoView.setVideoURI(result.data)
+                    mBinding.videoView.setOnPreparedListener { mp ->
+                        mp?.isLooping = true
+                        mBinding.videoView.start()
+                    }
+                }
+            }
         }
 
         val perms = arrayListOf(Manifest.permission.READ_CONTACTS, Manifest.permission.READ_EXTERNAL_STORAGE,

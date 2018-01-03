@@ -39,6 +39,9 @@
         <activity
             android:name="com.inexture.kotlinex.permissions.TransparentActivity"
             android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.inexture.kotlinex.MiddleActivity"
+            android:theme="@style/Theme.Transparent" />
     </application>
 
 </manifest>

@@ -47,6 +47,10 @@ m 0 0/Test copy
 m 0 0/Test copy$default
 f 0 0/StorageAccessExActivity mBinding
 m 0 0/StorageAccessExActivity getMBinding
+f 0 0/StorageAccessExActivity myIntent
+m 0 0/StorageAccessExActivity getMyIntent
+f 0 0/StorageAccessExActivity permsResult
+m 0 0/StorageAccessExActivity getPermsResult
 p com.inexture.kotlinex.permissions 2
 m 0 2/PermissionsResult getAllGrantedPermission
 m 0 2/PermissionsResult getAllDeniedPermission
@@ -131,10 +135,6 @@ m 0 4/Data component10
 m 0 4/Data component11
 m 0 4/Data copy
 m 0 4/Data copy$default
-f 0 0/StorageAccessExActivity myIntent
-m 0 0/StorageAccessExActivity getMyIntent
-f 0 0/StorageAccessExActivity permsResult
-m 0 0/StorageAccessExActivity getPermsResult
 a org.jetbrains.annotations.Nullable 1
 f 1 0/CalendarActivity lastDate
 m 1 0/CalendarActivity getLastDate
@@ -148,6 +148,7 @@ m 1 0/CoroutinesUIActivity fib
 m 1 0/ExtensionsKt enqueueAwait
 m 1 0/ExtensionsKt enqueueAwait$default
 m 1 0/ExtensionsKt checkForPermissions
+m 1 0/ExtensionsKt startNewActivity
 f 1 0/MyListItem name
 m 1 0/MyListItem getName
 m 1 0/MyListItem component1
@@ -156,10 +157,10 @@ m 1 0/MainActivityKt doSomethingUsefulOne
 m 1 0/MainActivityKt doSomethingUsefulTwo
 f 1 2/PermissionUtils instance
 m 1 2/PermissionUtils getInstance
-f 1 2/PermissionUtils grantedPermission
-m 1 2/PermissionUtils getGrantedPermission
-f 1 2/PermissionUtils deniedPermission
-m 1 2/PermissionUtils getDeniedPermission
+f 1 2/PermissionUtils resultInstance
+m 1 2/PermissionUtils getResultInstance
+f 1 2/PermissionUtils resultCode
+m 1 2/PermissionUtils getResultCode
 a android.annotation.SuppressLint 2
 m 2 2/TransparentActivity onRequestPermissionsResult
 a retrofit2.http.GET 3
@@ -180,6 +181,7 @@ d 0/ExtensionsKt
 d 0/MainActivity
 d 0/MyListItem
 d 0/MainActivityKt
+d 0/MiddleActivity
 d 0/SealedClassActivity
 d 0/Operation
 p com.inexture.kotlinex.Operation 6

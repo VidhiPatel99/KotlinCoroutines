@@ -1,5 +1,6 @@
 package com.inexture.kotlinex.permissions
 
+import android.content.Intent
 import kotlinx.coroutines.experimental.CompletableDeferred
 
 /**
@@ -8,12 +9,6 @@ import kotlinx.coroutines.experimental.CompletableDeferred
 object PermissionUtils {
     var instance: CompletableDeferred<PermissionsResult>? = null
 
-    var grantedPermission: ArrayList<String>? = null
-    var deniedPermission: ArrayList<String>? = null
-
-    fun onPermissionRequested(grantedPermission: ArrayList<String>, deniedPermission: ArrayList<String>) {
-        this.grantedPermission?.addAll(grantedPermission)
-        this.deniedPermission?.addAll(deniedPermission)
-    }
-
+    var resultInstance: CompletableDeferred<Intent>? = null
+    var resultCode: CompletableDeferred<Int>? = null
 }

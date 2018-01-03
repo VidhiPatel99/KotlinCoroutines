@@ -1,5 +1,6 @@
 package com.inexture.kotlinex
 
+import android.app.Activity
 import android.arch.lifecycle.Lifecycle
 import android.arch.lifecycle.LifecycleObserver
 import android.arch.lifecycle.LifecycleOwner
@@ -132,6 +133,15 @@ suspend fun AppCompatActivity.checkForPermissions(perms: ArrayList<String>): Com
     this.startActivity(intent)
     PermissionUtils.instance = CompletableDeferred()
     return PermissionUtils.instance!!
+}
+
+
+suspend fun AppCompatActivity.startNewActivity(intent: Intent): CompletableDeferred<Intent>? {
+    val mIntent = Intent(this, MiddleActivity::class.java)
+    mIntent.putExtra("myIntent", intent)
+    this.startActivity(mIntent)
+    PermissionUtils.resultInstance = CompletableDeferred()
+    return PermissionUtils.resultInstance
 }
 
 fun AppCompatActivity.launchCoroutines(coroutineContext: CoroutineContext, launchBody: suspend () -> Unit): Job {
